@@ -1,0 +1,114 @@
+/*Whole Code style.*/
+body, html{
+	margin: 0;
+	padding: 0;
+	background-color: darkgrey;
+	font-family: fantasy;
+	height: 100%;
+	border: 5px cadetblue solid;
+}
+/*End.*/
+
+header{
+	background-image: url('Bg.jpg');
+	height: 100vh;
+	background-size: cover;
+	margin-bottom: 50px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 10px inset red;
+}
+
+p{
+	max-width: 600px;
+	margin: 0 auto 20px;
+}
+/*Style for the Video "Start"
+*/
+video{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-height: 100%;
+	min-width: 100%;
+
+}
+/*End.*/
+
+/*Style for the Classes in the Body.
+*
+.container{
+	opacity: 0.55;
+*/
+.text{
+	z-index: 2;
+	position: relative;
+	background: rgba(200, 0, 0, 0.4);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.kicker{
+	text-align: center;
+	font: 
+		weight:700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	line-height: 1;
+}
+
+
+.logo{
+	+size: 50px;
+	background: #999;
+}
+/*End.*/
+
+/*Span Styling.("ALL")*/
+span{
+	display: inline-block;
+	padding: 0.5em 0.2em;
+	border: white solid 10px;
+	border-radius: 10px;
+	line-height: 20px;
+}
+/*End*/
+
+/*All Headings*/
+h1{
+	text-align: center;
+	font-size: 70px;
+	line-height: 30px;
+}
+/*End*/
+
+/*All Navs, ul, li's.*/
+
+nav, a{
+	margin-left: 20px;
+	font-weight: 700;
+
+	padding: 0;
+	text-decoration: none;
+	text-align: left;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 14px;
+	cursor: pointer;
+}
+
+a:hover{
+	color: lightgrey;
+	cursor: pointer;
+}
+
+nav:hover{
+	display: block;
+	cursor: pointer;
+}
